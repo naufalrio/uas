@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="jas.js"></script>
+	<title>Pemerintah Provinsi Bali</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="logo">
+				 <img src="balilogo.png">
+		</div>
+		<div class="pigurabupati">
+			<div class="fotobupati">
+					<img src="1.jpg" width="110px"; height="170px";>
+					<h3>Gubernur</h3>
+			</div>
+			<div class="fotobupati">
+					<img src="2.jpg" width="125px"; height="170px";>
+					<h3>Wakil Gubernur</h3>
+			</div>
+			<div class="fotobupati">
+				<img src="gwk.jpg" width="291px"; height="190px"; alt="responsive-image";>
+				<h3></h3>
+			</div>
+			<div class="fotobupati">
+				<img src="tanahlot.jpg" width="291px"; height="190px";>
+				<h3></h3>
+			</div>
+		</div>
+	</div> <!--/ .header -->
+
+	<div class="main">
+		<div class="left">
+			<h3>Tentang Bali</h3>
+			<p>
+					<ul>
+						<li><a href="http://www.baliprov.go.id/v1/masakemasa">Bali Dari Masa Ke Masa</a></li>
+						<li><a href="http://www.baliprov.go.id/v1/geographi">Geografi</a></li>
+						<li><a href="http://www.baliprov.go.id/v1/topographi">Topografi</a></li>
+						<li><a href="http://www.baliprov.go.id/v1/balipariwisata">Bali dan Pariwisata</a></li>
+						<li><a href="http://www.baliprov.go.id/v1/#galerifoto">Galeri</a></li>
+						<li><a href="http://www.baliprov.go.id/v1">Website Pemerintah Provinsi Bali</a></li>
+					</ul>
+			</p>
+			<p>Tertarik Untuk Explore Bali?</p>
+		<form>
+  		<select id="pilihan" onchange="pilih()">
+			<option id="kosong"></option>
+    		<option id="tertarik">Tertarik</option>
+    		<option id="tidak">Tidak Tertarik</option>
+    		<option id="netral">Netral</option>
+		  </select>
+		</form>
+		<p id="coba"></p>
+		<div id="ajax"></div>
+		<button type="button" onClick="loadXMLDoc()">Tentang Saya</button>
+
+		</div> <!--/ .header -->
+
+		<div class="middle">
+			<h3>Wisata Terkenal dan Terbaru di Bali</h3>
+			<p><strong>Garuda Wisnu Kencana? Apakah Itu? </strong> Taman Budaya Garuda Wisnu Kencana, disingkat GWK, adalah sebuah taman wisata di bagian selatan pulau Bali. Taman wisata ini terletak di Desa Ungasan, Kecamatan Kuta Selatan, Kabupaten Badung, kira-kira 40 kilometer di sebelah selatan Denpasar, ibu kota provinsi Bali.</p>
+			<p>Ingin jauh mengetahui? Kunjungi <a href="gwkbali.com">gwkbali.com</a> untuk mengetahui informasi lebih lanjut
+			<p><img src="gwk.jpg" alt=""></p>
+			<p><strong>Mencari Spot Foto Kearifan Lokal? Pura Tanah Lot Salah Satunya</strong> Pura Tanah Lot adalah sebuah objek wisata di Bali, Indonesia. Di sini ada dua pura yang terletak di atas batu besar. Satu terletak di atas bongkahan batu dan satunya terletak di atas tebing mirip dengan Pura Uluwatu. Pura Tanah Lot ini merupakan bagian dari pura Dang Kahyangan.</p>
+			<p>Ingin tahu kelanjutannya? <a href="https://balipedia.id/harga-tiket-masuk-tanah-lot-bali/">Cek disini</a>
+			<p><img src="tanahlot.jpg" alt=""></p>
+		</div> <!--/ .middle -->
+
+		<div class="right">
+			<h3>Pojok Sejarah</h3>
+			<p>Sebagaimana dengan wilayah lain di Nusantara, masa-masa awal kehidupan bermasyarakat di Bali dikelompokkan sebagai jaman pra sejarah. Pada masa pra sejarah ini tidak ditemukan catatan-catatan yang menggambarkan tatanan kehidupan bermasyarakat. Yang menjadi acuan adalah temuan berbagai peralatan yang dipergunakan sebagai sarana menopang kelangsungan hidup manusia Bali ketika itu..</p>
+			<button type="button" onClick="loadXMLDocument()">Daftar Buku</button>
+		</div> <!--/ .right -->
+
+	</div> <!--/ .main -->
+
+	<div class="footer">
+		<h4><strong>Contact Us</strong></h4>
+		<li><strong>Alamat</strong>: Jl. Basuki Rachmat Niti Mandala Renon, Bali</li>
+		<li><strong>Phone</strong>: +62 361 - 224671 (Hotline)</li>
+		<li><strong>Email</strong>: info@baliprov.go.id</li>
+	</div> <!--/ .footer -->
+ 
+</div>
+
+</body>
+</html>

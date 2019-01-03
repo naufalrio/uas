@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NMEXML EximID="1" BranchCode="100">
+<binatang>
+  <jumlahkaki>
+    <empat>kucing</empat>
+    <dua>ayam</dua>
+  </jumlahkaki>
+  <!-- Contoh dengan tag kembar -->
+  <mamalia>sapi</mamalia>
+  <mamalia>kerbau</mamalia>
+</binatang>
+</NMEXML>
